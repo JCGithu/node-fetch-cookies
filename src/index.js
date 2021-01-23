@@ -1,5 +1,5 @@
-const nodeFetch,
-    {Headers, Request, Response, FetchError} = require("node-fetch");
+const nodeFetch = require('node-fetch');
+const { Headers, Request, Response, FetchError } = require("node-fetch");
 const CookieJar = require("./cookie-jar.js");
 const Cookie = require("./cookie.js");
 const {paramError, CookieParseError} = require("./errors.js");
