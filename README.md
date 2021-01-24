@@ -1,5 +1,7 @@
 # node-fetch-cookies [![Build Status](https://travis-ci.com/jkhsjdhjs/node-fetch-cookies.svg?branch=master)](https://travis-ci.com/jkhsjdhjs/node-fetch-cookies)
 
+This is an adaption of node-fetch-cookies to work as a CommonJS module.
+
 A [node-fetch](https://github.com/node-fetch/node-fetch) wrapper with support for cookies.
 It supports reading/writing from/to a JSON cookie jar and keeps cookies in memory until you call `CookieJar.save()` to reduce disk I/O.
 
