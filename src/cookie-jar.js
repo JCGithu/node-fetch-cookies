@@ -1,4 +1,4 @@
-const {fs} = require("fs/promises");
+const fs = require("fs/promises");
 const url = require("url");
 const {__esModule} = require("node-fetch");
 const Cookie = require("./cookie.js");
